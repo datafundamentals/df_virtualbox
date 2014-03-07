@@ -11,7 +11,7 @@
 
 # the first step is making sure that everything needed is installed on the system
 package "virtualbox" do 
-	source node['virtualbox']['source']
+	source "/vagrant/binaries/VirtualBox-4.3-4.3.6_91406_el6-1.x86_64.rpm"
 	action :install 
 end
 
